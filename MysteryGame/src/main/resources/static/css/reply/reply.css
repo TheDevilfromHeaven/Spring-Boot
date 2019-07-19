@@ -1,0 +1,128 @@
+.main{
+	width: 1200px;
+	margin: auto;
+	background-color: white;
+	margin-bottom:50px;
+}
+
+.head{
+	height: 250px;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.center{
+	width: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.reply{
+	width: 80%;
+	border: 1px solid rgb(192,192,192);
+	overflow: auto;
+}
+
+.reply ul{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+.reply li{
+	width: 100%;
+	height:300px;
+	border-top: 1px solid rgb(192,192,192);
+}
+
+.c_right{
+	height: 855px;
+	width: 20%;
+	padding: 30px 10px;
+	border: 1px solid rgb(192,192,192);
+}
+
+.c_right ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.c_right li{
+    position: relative;
+    padding-left: 35px;
+    height: 90px;
+    line-height: 45px;
+    overflow: hidden;
+}
+.c_right li:after{
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFF;
+    background: #999999;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 15px;
+}
+.c_right li:first-child:after {content: "1";background: #FD8C84;}
+.c_right li:nth-child(2):after {content: "2";background: #FFCC99;}
+.c_right li:nth-child(3):after {content: "3";background: #7FD75A;}
+.c_right li:nth-child(4):after {content: "4";background: #CCCCFF;}
+.c_right li:nth-child(5):after {content: "5";background: #60C4FD;}
+.c_right li:nth-child(6):after {content: "6";}
+.c_right li:nth-child(7):after {content: "7";}
+.c_right li:nth-child(8):after {content: "8";}
+
+.user_info{
+	width:25%;
+	height:300px;
+	float:left;
+	background-color: rgba(192,192,192,0.3);
+}
+
+.user_head{
+	width:60%;
+	height:150px;
+	margin: 15px auto 5px auto;
+}
+
+.user_head img{
+	width:100%;
+	height:100%;
+}
+
+.user_name{
+	width:80%;
+	text-align: center;
+	margin: auto ;
+}
+
+.content{
+	width:75%;
+	height:300px;
+	float: left;
+}
+
+.text{
+	width:80%;
+	height:250px;
+	margin: 20px auto auto 20px;
+}
+
+.time{
+	float: right;
+	padding-right:50px;
+}
+
+.replyArea{
+	width:100%;
+	border: 1px solid rgb(192,192,192);
+}
+.replyEdit {
+	width:70%;
+	margin: 20px auto 0px 10%;
+}

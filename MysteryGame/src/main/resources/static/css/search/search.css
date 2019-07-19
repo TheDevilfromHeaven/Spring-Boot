@@ -1,0 +1,151 @@
+/* 5.29 */
+.content{
+	width: 1300px;
+	margin: auto;
+}
+
+.head{
+	height: 160px;
+	width: 100%;
+	border: 1px red solid;
+}
+
+.nav_a{
+	height: 100px;
+	width: 100%;
+}
+
+.nav_b{
+	height: 90px;
+	width: 100%;
+}
+
+.center{
+	width: 90%;
+	overflow: auto;
+	margin: auto;
+}
+
+.center ul{
+	list-style:none;
+}
+
+.center li{
+	list-style-type:none;
+}
+
+.foot{
+	width: 100%;
+	margin-top:20px;
+	padding-bottom:20px;
+}
+
+.foot ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+.foot li{
+    position: relative;
+    height: 35px;
+    margin-left:15px;
+    font-size:18px;
+    line-height: 30px;
+    overflow: hidden;
+	text-decoration: none;
+}
+
+.foot a{
+	text-decoration:none;
+	out-line: none;
+	color: #000000;
+}
+
+.search {
+	width: 400px;
+	height: 32px;
+	margin: 30px auto 0px auto;	
+}
+
+.search input {
+	height: 32px;
+	width: 340px;
+	line-height: 32px;
+	border: 1px solid #d2d2d2;
+	text-indent: 2px;
+	color: #999;
+	padding-left: 30px;
+	float: left;
+	border-right: none;
+	background: #e5e5e5;
+	border-bottom-left-radius: 16px;
+	border-top-left-radius: 16px;
+}
+
+.search button {
+	width: 50px;
+	border: none;
+	height: 32px;
+	float: left;
+	cursor: pointer;
+	position: relative;
+	display: inline-block;
+	border-top-right-radius: 16px;
+	border-bottom-right-radius: 16px;
+	background: rgb(241, 145, 73);
+}
+
+.search button i {
+	width: 22px;
+	height: 21px;
+	margin: 6px 8px;
+	background: url(/img/ioc-sou.png) no-repeat center;
+	display: block;
+}
+
+#showGame{
+	width:47%;
+	height:290px;
+	float:left;
+	margin: 5px 0px 5px 20px;
+	font-size:14px;
+	background-color: #FFDEAD;
+	border-radius: 25px;
+}
+
+#Game{
+	margin:40px auto auto 30px;
+	overflow: auto;
+}
+
+#type{
+	width:60%;
+	margin: 20px auto;
+}
+
+#type a{
+	width:15%;
+	margin-left: 20px;
+	background: orange;
+	border-radius: 25px;
+}
+
+.weibo{
+	width:40%;
+	float:left;
+	text-align: center;
+	margin:40px auto auto auto;
+}
+
+.weibo a{
+	padding-right:20px;
+}
+
+.weibo a:hover{
+	text-decoration:none;
+	out-line: none;
+}
+
+.weibo span{
+	font-size:48px;
+}

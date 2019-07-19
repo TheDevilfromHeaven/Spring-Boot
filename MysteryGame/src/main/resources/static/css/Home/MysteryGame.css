@@ -1,0 +1,686 @@
+body {
+	background-image: url(/img/Home/HomeBg.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+/* 5.25 */
+/* 导航栏*/
+
+/* 导航栏结束 */
+.search {
+	width: 260px;
+	height: 32px;
+	float: right;
+	padding-top: 175px;
+	margin-right: 100px;
+}
+
+.search input {
+	height: 32px;
+	width: 200px;
+	line-height: 32px;
+	border: 1px solid #d2d2d2;
+	text-indent: 2px;
+	color: #999;
+	padding-left: 10px;
+	float: left;
+	border-right: none;
+	background: #e5e5e5;
+	border-bottom-left-radius: 16px;
+	border-top-left-radius: 16px;
+}
+
+.search button {
+	width: 50px;
+	border: none;
+	height: 32px;
+	float: left;
+	cursor: pointer;
+	position: relative;
+	display: inline-block;
+	border-top-right-radius: 16px;
+	border-bottom-right-radius: 16px;
+	background: rgb(241, 145, 73);
+}
+
+.search button i {
+	width: 22px;
+	height: 21px;
+	margin: 6px 8px;
+	background: url(/img/ioc-sou.png) no-repeat center;
+	display: block;
+}
+
+.login {
+	margin-top: 10px;
+	padding-left: 0px;
+}
+
+#appImg {
+	display: none;
+	height: 50px;
+	back-ground: #f00;
+	position: absolute;
+	padding-left: 248px;
+	padding-top: 13.5px;
+}
+
+/* 5.26 */
+/* 正文 */
+.main {
+	width: 1300px;
+	margin:auto;
+	background-color: #FFFFFF;
+}
+
+.content{
+	width: 100%;
+}
+
+.content-top {
+	width: 100%;
+	height: 230px;
+}
+
+/* 游戏分类 */
+.content-top-left, .online-head, .spe-head {
+	font-size: 18px;
+	font-weight: bold;
+	font-style: italic;
+	padding-top: 15px;
+	padding-left: 15px;
+	color: darkred;
+	height:50px;
+}
+
+/* 单机游戏等。。。 */
+.content-top-center {
+	padding-top: 20px;
+	height:180px;
+}
+
+.show_game_img{
+	width:49%;
+	height:49%;
+	float:left;
+	margin:2px 0px 3px 4px;
+}
+
+.gameType1{
+	height: 33%;
+	width: 100%;
+	font-size: 18px;
+	line-height: 37px;
+}
+
+.gameType1 span{
+	background-color: #00FF00;
+}
+
+.gameType2{
+	height: 33%;
+	width: 100%;
+	font-size: 18px;
+	line-height: 37px;
+}
+
+.gameType2 span{
+	background-color: #AFEEEE;
+}
+
+.gameType3{
+	height: 33%;
+	width: 100%;
+	font-size: 18px;
+	line-height: 37px;
+}
+
+.gameType3 span{
+	background-color: #F4A460;
+}
+
+.type{
+	width:120px;
+	height:36px;
+	line-height: 36px;
+	display: block;
+	text-align: center;
+	margin-left:60px;
+	float:left;
+}
+
+.showGame{
+	width:100px;
+	height:36px;
+	line-height: 36px;
+	padding-left:20px;
+	text-decoration: none;
+	color:#000000;
+	font-size: 16px;
+}
+
+.showGame:hover{
+	text-decoration: none;
+}
+
+/* 网游游戏图片 */
+.content-center {
+	height: 400px;
+	width: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+	margin-top: 10px;
+}
+
+.content-spe{
+	width:100%;
+	margin-top: 10px;
+	overflow: auto;
+}
+
+.content-center-center, .content-center-right {
+	height: 100%;
+	width: 30%;
+}
+
+.content-center-center-on, .content-center-center-up,
+	.content-center-right-on, .content-center-right-up {
+	height: 50%;
+	width: 100%;
+	border: 1px black solid;
+}
+/* 5.26 */
+/* 正文底部 */
+.content-spe-left {
+	display: inline-block;
+	height: 400px;
+	width: 44%;
+	float:left;
+	margin-left:10px;
+}
+
+.content-spe-center {
+	height: 100%;
+	width: 33%;
+	float:left;
+}
+
+.new_title{
+	width:95%;
+	text-decoration: none;
+	color:inherit;
+	display:block;
+	padding-bottom:10px;
+}
+
+.content-spe-right {
+	height: 100%;
+	width: 22%;
+	float:left;
+}
+
+.content-spe-right ul{
+	margin:0px;
+	padding:0px;
+	list-style: none;
+	width:92%;
+}
+
+.content-spe-right li{
+	margin:0px;
+	padding:0px;
+	display: block;
+	width:100%;
+	height:40px;
+	border-bottom: 1px dashed gray;
+}
+
+.content-spe-right span{
+	float:left;
+	display: block;
+	height: 36px;
+	line-height: 36px;
+	padding-left: 20px;
+}
+
+.off{
+	height: 36px;
+	line-height: 36px;
+	width:150px;
+	text-align: center;
+	margin-left:70px;
+}
+
+.on{
+	width: 20px;
+	height: auto;
+	float: left; 
+	margin-left:-15px; 
+	margin-top:40px;
+	line-height:24px;
+}
+
+/* 正文结束 */
+/* 正文底部 */
+/* 友情连接 */
+.content-link {
+	width: 100%;
+	padding-top: 20px;
+	background-color: black;
+}
+
+.content-link-center {
+	width: 1000px;
+	margin:auto;
+	overflow: auto;
+}
+
+.content-link-center p {
+	font-size: 16px;
+	color: grey;
+}
+
+.content-link-center li {
+	width:8%;
+	font-size: 14px;
+	float: left;
+	margin: 10px;
+	display: block;
+}
+
+.content-link-center li a {
+	color: grey;
+}
+
+.footer {
+	width: 59.8%;
+	margin:auto;
+	text-align:center;
+	height: 58px;
+}
+
+.footer span {
+	font-size: 12px;
+	font-family: "Microsoft YaHei";
+	color: grey;
+}
+
+.content-spe-center p{
+	padding-left: 10px;
+}
+
+.content-spe-center a{
+	padding-left: 40px;
+}
+
+.sll {
+	font-size: 18px;
+	font-weight: bold;
+	font-style: italic;
+	padding-top: 15px;
+	padding-left: 15px;
+	color: darkred;
+	height:50px;
+}
+
+.line {
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+}
+
+.content-last {
+	width: 100%;
+	height: 859px;
+	background-color: #FFFFFF;
+	margin: 0 auto;
+}
+
+.content-last-left {
+	width: 421px;
+	height: 818px;
+	float: left;
+}
+
+.content-last-left .yeyou-1 {
+	height: 39px;
+	line-height: 39px;
+	font-weight: normal;
+	padding-left: 40px;
+}
+
+.content-last-left a {
+	float: right;
+	line-height: 39px;
+	padding-right: 10px;
+	font-weight: normal;
+	color: black;
+	text-decoration: none;
+}
+
+.content-last-left .line1 {
+	border-bottom: 1px solid #ccc;
+	width: 421px;
+}
+
+.content-last-right {
+	width: 869px;
+	height: 477px;
+	float: right;
+}
+
+.content-last-under {
+	width: 869px;
+	height: 338px;
+	float: right;
+}
+
+.content-last-left .tup img {
+	width: 195px;
+	height: 128px;
+	float: left;
+	padding-top: 10px;
+
+}
+
+.M7item_a {
+	height: 360px;
+	width: 421px;
+}
+
+.M7item_a .lis {
+	width: 197px;
+	float: left;
+	height: 167px;
+	padding-left: 11px;
+	padding-top: 10px;
+	border: 1px solid #dcdcdc;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.19);
+}
+
+.QZ_title {
+	width: 421px;
+	height: 39px;
+	border-bottom: 1px solid #ccc;
+}
+
+.QZ_title.btt {
+	width: 421px;
+	height: 39px;
+	line-height: 39px;
+
+}
+.M7item_a img {
+	width: 195px;
+	height: 127px;
+	cursor: pointer;  
+	transition: all 0.2s;  
+	overflow: hidden;  
+    padding-left: 15px;
+}
+
+.M7item_a img:hover {
+	transform: scale(1.04);   
+}
+.M7item_a .info {
+	height: 30px;
+	width: 195px;
+
+}
+.M7item_a .info{
+	width: 210px;
+	height: 39px;
+	margin-top: 120px;
+}
+.M7item_a .info a .bt-1{
+	padding-right: 75px;
+	line-height: 39px;
+}
+.news_item .lis_b li {
+	width: 380px;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	margin-top: 2px;
+	list-style: none;
+	padding-left: 15px;
+}
+
+.news_item .lis_b li span {
+	float: right;
+	font-size: 14px;
+
+}
+
+.news_item .lis_b li .bt {
+	float: left;
+	font-size: 14px;
+	display: inline-block;
+	width: 300px;
+	height: 30px;
+	color: #080808;
+
+}
+.news_item .lis_b li .bt:hover {
+	text-decoration: underline;
+    color: red;
+}
+.content-last-right-left {
+	width: 550px;
+	height: 437px;
+	float: left;
+}
+
+.content-last-right-right {
+	width: 310px;
+	height: 437px;
+	float: right;
+}
+
+.content-last-right-left .btt {
+	width: 550px;
+	height: 39px;
+	line-height: 39px;
+	border-bottom: 1px solid #ccc;
+}
+
+.content-last-right-left .btt .yeyou-1 {
+	padding-left: 40px;
+}
+
+.content-last-right-left .btt a {
+	padding-left: 400px;
+	text-decoration: none;
+	color: black;
+}
+
+.news_item .lis_a .bt {
+	width: 550px;
+	height: 39px;
+	overflow: hidden;
+	color: red;
+	display: block;
+	line-height: 39px;
+	padding-left: 10px;
+	text-decoration: none;
+}
+.news_item .lis_a .bt:hover{
+	text-decoration: underline;
+	color: black;
+}
+.news_item .a-1 {
+	width: 550px;
+	height: 75px;
+}
+
+.news_item .a-1 .a-1-1 {
+	width: 128px;
+	height: 75px;
+	float: left;
+}
+
+.news_item .a-1 .a-1-1 img {
+	width: 128px;
+	height: 75px;
+
+}
+
+.news_item .a-1 .a-1-2 {
+	width: 379px;
+	height: 75px;
+	float: right;
+}
+
+.news_item .a-2 {
+	width: 550px;
+	height: 168px;
+}
+
+.news_item .a-2 .lis_b li {
+	height: 30px;
+	width: 520px;
+	margin-left: -20px;
+	line-height: 30px;
+	float: left;
+}
+.news_item .a-2 .lis_b li a:hover {
+	text-decoration: underline;
+	color: red;
+}
+
+.news_item .a-2 .lis_b .bt {
+	float: left;
+	text-decoration: none;
+}
+
+.news_item .a-2 .lis_b span {
+	float: right;
+
+}
+
+.content-last-right-right .btt {
+	width: 310px;
+	height: 36px;
+	line-height: 36px;
+	border-bottom: 1px solid #ccc;
+}
+
+.content-last-right-right .btt .yeyou-1 {
+	padding-left: 40px;
+}
+
+.content-last-right-right .btt a {
+	padding-left: 158px;
+	text-decoration: none;
+	color: black;
+}
+.liss {
+	width: 310px;
+	height: 154px;
+}
+
+.liss .box_a {
+	width: 310px;
+	height: 38px;
+	line-height: 38px;
+}
+
+.liss .box_a .name {
+	margin: 0 20px 0 20px;
+}
+
+.liss .box_a .name a {
+	text-decoration: none;
+	color: #080808;
+}
+.liss .box_a .name a:hover {
+	text-decoration: underline;
+	color: red;
+}
+
+.liss .box_b {
+	height: 116px;
+	width: 310px;
+	display: none;
+}
+.liss .box_b {
+	height: 116px;
+	width: 310px;
+}
+
+.liss .box_b .lxx {
+	width: 225px;
+	height: 116px;
+	float: left;
+}
+
+.liss .box_b .start {
+	width: 85px;
+	height: 113px;
+	line-height: 116px;
+	float: right;
+	background-color: red;
+}
+
+.liss .box_b .start span {
+	padding-left: 8px;
+}
+.liss .box_b1 {
+	height: 116px;
+	width: 310px;
+}
+
+.liss .box_b1 .lxx {
+	width: 225px;
+	height: 116px;
+	float: left;
+}
+
+.liss .box_b1 .start {
+	width: 85px;
+	height: 116px;
+	line-height: 116px;
+	float: right;
+	background-color: red;
+}
+
+.liss .box_b1 .start span {
+	padding-left: 8px;
+}
+.content-last-under-1 {
+	width: 869px;
+	height: 38px;
+	line-height: 38px;
+	border-bottom: 1px solid #ccc;
+}
+.content-last-under-1 .btt .yeyou-1 {
+	padding-left: 40px;
+}
+
+.content-last-under-1 .btt a {
+	padding-left: 720px;
+	text-decoration: none;
+	color: black;
+}
+.content-last-under-2{
+	width: 869px;
+	height: 285px;
+    margin-top: 11px;
+}
+.content-last-under-2 .content-a{
+	width: 175px;
+	height: 281px;
+    float: left;
+    margin-left: 33px;
+    padding-right:5px;
+	transition: all 0.2s;  
+	cursor: pointer;
+	border: 1px solid #DDDDDD;
+}
+
+.content-last-under-2 .content-a:hover{
+	transform: scale(1.01);  
+	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.9);
+}
+

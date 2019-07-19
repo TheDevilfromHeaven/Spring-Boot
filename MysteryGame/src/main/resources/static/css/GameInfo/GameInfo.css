@@ -1,0 +1,297 @@
+body{
+	background-image: url(/img/GameInfo/index1.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+.G-main {
+	height: 900px;
+	width: 1300px;
+	margin:auto;
+	background-color: rgba(0,0,0,0.9);
+	color: #FFFFFF;
+}
+
+.G-content-total {
+	display: flex;
+}
+
+.G-content-left {
+	width: 60%;
+	margin:20px auto;
+}
+
+
+/*  二级导航栏  */
+.G-nav {
+	width:1300px;
+	height: 48px;
+	background: linear-gradient(to bottom, #232328 0%, #1f2024 100%);
+	border-top: 1px solid #2c2f35;
+	border-bottom: 1px solid #101112;
+}
+
+.G-nav .link_L {
+	float: left;
+	height: 46px;
+	overflow: hidden;
+}
+
+.G-nav .link_L a {
+	display: block;
+	float: left;
+	min-width: 60px;
+	height: 46px;
+	line-height: 46px;
+	font-size: 14px;
+	color: #cbcbe0;
+	text-align: center;
+}
+
+.G-nav .link_L a:hover {
+	color: orangered;
+}
+
+.G-nav .link_L a.on {
+	font-size: 16px;
+	color: #fff;
+	border: 1px solid #0f1011;
+	border-bottom: none;
+	width: 100px;
+	line-height: 40px;
+	margin: 0 -3px 0 -4px;
+	position: relative;
+	z-index: 2;
+}
+
+.G-nav .link_L a.on p {
+	width: 100%;
+	border-top: 4px solid #f0412a;
+}
+
+.G-nav .link_L span {
+	display: block;
+	float: left;
+	margin: 3px 0 0;
+	background: url(/img/img-zq.png) no-repeat;
+	height: 39px;
+	width: 6px;
+	background-position: 0 0;
+}
+
+.G-search {
+	float: right;
+	margin: 8px 17px 0 0;
+	width: 240px;
+	height: 30px;
+	background: #17181a;
+	border-radius: 15px;
+	box-shadow: 0 4px 5px #2f3139;
+	position: relative;
+}
+
+.G-search input.ssk {
+	float: left;
+	width: 200px;
+	padding: 0 15px;
+	background: none;
+	border: none;
+	font-size: 12px;
+	color: #dadada;
+	margin: 7px 0;
+}
+
+.G-search input.btn {
+	float: right;
+	background: url(/img/GameInfo/img-zq.png) no-repeat;
+	height: 23px;
+	width: 23px;
+	background-position: -30px -89px;
+	border: none;
+	cursor: pointer;
+	margin: 4px;
+}
+
+.G-search input.btn:hover {
+	opacity: 0.8;
+}
+
+/*  二级导航栏结束  */
+
+/* 游戏简介 */
+.G-Game {
+	display: flex;
+	flex-wrap: nowrap;
+	overflow: auto;
+}
+
+.G-left {
+	width: 35%;
+	height:350px;
+	margin:auto;
+}
+
+.G-right {
+	width: 45%;
+	
+}
+
+#followArea{
+	width:10%;
+}
+
+/* 游戏背景介绍 */
+.G-synopsis {
+	padding-top:20px;
+	height: 200px;
+}
+
+.G-recommend {
+	width: 100%;
+}
+
+.G-recommend-on {
+	height: 30px;
+	line-height: 32px;
+}
+
+.G-recommend-on ul {
+	float: left;
+}
+
+.G-recommend-on ul li {
+	font-size: 18px;
+	color: orangered;
+	font-weight: bold;
+	font-style: italic;
+	display: block;
+	position: relative;
+}
+
+.G-recommend-on ul li.on:after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 3px;
+	display: block;
+	background: darkred;
+}
+
+.G-recommend-lis:after {
+	content: '';
+	display: block;
+	clear: both;
+	overflow: hidden;
+}
+
+.G-recommend-lis {
+	padding-top: 20px;
+}
+
+.G-recommend-lis a {
+	padding: 0 20px;
+	color: #cdcdcd;
+	display: block;
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	background: #2c2d30;
+	margin-right: 13px;
+	margin-bottom: 12px;
+}
+
+.G-recommend-lis a.on {
+	background: #222226;
+}
+
+.G-recommend-lis a:hover {
+	background: #222226;
+}
+
+/* 游戏销量 */
+.G-sale {
+	height: 686px;
+	width: 30%;
+	margin: 10px auto;
+}
+
+.G-sale-top {
+	outline: 1px solid #18191b; 
+	border: 1px solid #3d3e42;
+}
+
+.G-sale-foot {
+	outline: 1px solid #18191b; 
+	border: 1px solid #3d3e42;
+	margin-top:15px;
+}
+
+.sell,.download {
+	font-size: 18px;
+	text-align: center;
+	padding-top: 10px;
+	line-height: 50px;
+	margin: 0 auto;
+	display: block;
+	width: 100%;
+	height: 60px;
+	line-height: 30px;
+	color: #f0412a;
+	border-bottom: 2px grey dashed;
+}
+
+.G-sale-top .on,.up {
+	padding-top: 18px;
+	margin: 10px auto;
+}
+
+
+/* 友情链接 */
+.G-content-link {
+	width: 1300px;
+	margin:auto;
+	padding-top: 20px;
+	background-color: black;
+}
+
+.content-link-center {
+	width:90%;
+	margin:auto;
+	overflow: auto;
+}
+
+.content-link-center p {
+	font-size: 16px;
+	color: grey;
+}
+
+.content-link-center li {
+	width:8%;
+	font-size: 14px;
+	float: left;
+	margin: 10px;
+	list-style-type: none;
+}
+
+.content-link-center li a {
+	color: grey;
+}
+
+.footer {
+	width: 59.8%;
+	margin:auto;
+	text-align:center;
+	height: 58px;
+}
+
+.footer span {
+	font-size: 12px;
+	font-family: "Microsoft YaHei";
+	color: grey;
+}
+
+.up a {
+	color:#FFFFFF; 
+}

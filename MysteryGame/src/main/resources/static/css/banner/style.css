@@ -1,0 +1,88 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0
+}
+
+#banner {
+	width: 60%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	margin-left:8px;
+}
+
+#banner .pic {
+	margin-top:-15px;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+#banner .pic ul li {
+	list-style: none;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: none
+}
+
+#banner .pic ul li.first {
+	display: block
+}
+
+#banner .but {
+	width: 104px;
+	height: 10px;
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	margin-left: -52px
+}
+
+#banner .but ul li {
+	list-style: none;
+	width: 10px;
+	height: 10px;
+	float: left;
+	margin: 0 5px;
+	background-color: #fff;
+	border-radius: 50%
+}
+
+#banner .but ul li.first {
+	background-color: red
+}
+
+#banner .picnav {
+	width: 625px;
+	height: 86px;
+	background-color: rgba(255, 255, 255, .8);
+	position: absolute;
+	bottom: -86px;
+	left: 50%;
+	margin-left: -312px
+}
+
+#banner .picnav ul li {
+	list-style: none;
+	width: 115px;
+	height: 75px;
+	float: left;
+	margin: 5px
+}
+
+#banner .picnav ul li.first {
+	border-bottom: 4px solid red
+}
+
+#banner .picnav ul li img {
+	width: 115px;
+	height: 70px
+}
+#banner .pic ul li img {
+	width: 100%;
+	height: 100%
+}

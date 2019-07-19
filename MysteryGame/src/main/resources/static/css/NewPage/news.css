@@ -1,0 +1,118 @@
+/* 5.29 */
+body{
+	background-image: url(/img/new/bj.jpg);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size: 100% 100%;
+}
+
+.new{
+	width: 1300px;
+	margin: auto;
+	background-color:#FFFFFF;
+}
+
+
+.content{
+	width: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.c_left{
+	height: 1000px;
+	width: 70%;
+	margin:5px 50px;
+}
+
+.c_right{
+	height: 900px;
+	width: 30%;
+}
+
+.c_right li{
+    position: relative;
+    height: 50px;
+    font-size:18px;
+    line-height: 25px;
+    overflow: hidden;
+	text-decoration: none;
+}
+
+.a{
+	height: 350px;
+	width: 90%;
+}
+
+.a a{
+	text-decoration:none;
+	out-line: none;
+	color: #000000;
+}
+
+.a ul{
+	margin:0px;
+	padding:0px;
+}
+
+.b{
+	height: 610px;
+	width: 95%;
+}
+
+.foot{
+	width: 100%;
+	padding:50px 0px 40px 50px;
+	height:280px;
+}
+
+.foot_a{
+	height: 150px;
+	width:40%;
+	padding-top:10px;
+	float:left;
+}
+
+.foot_a a{
+	text-decoration:none;
+	out-line: none;
+	color: #000000;
+}
+
+.foot_a ul{
+	margin: 0px;
+	padding: 0px;
+}
+.foot_a li{
+    position: relative;
+    height: 35px;
+    margin-left:15px;
+    font-size:18px;
+    line-height: 30px;
+    overflow: hidden;
+	text-decoration: none;
+}
+
+hr{
+	color:black;
+}
+
+.weibo{
+	width:40%;
+	float:left;
+	text-align: center;
+	margin:50px auto auto auto;
+}
+
+.weibo a{
+	padding-right:20px;
+}
+
+.weibo a:hover{
+	text-decoration:none;
+	out-line: none;
+}
+
+.weibo span{
+	font-size:48px;
+}
